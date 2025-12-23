@@ -2,8 +2,9 @@
   "name": "stocker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/reazswe/stocker/issues"
   },
-  "homepage": "https://github.com/reazswe/stocker#readme"
+  "homepage": "https://github.com/reazswe/stocker#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mongoose": "^9.0.2"
+  }
 }
